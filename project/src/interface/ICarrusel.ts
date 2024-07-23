@@ -3,3 +3,10 @@ export interface ICarouselImage {
   title: string;
   id: number;
 }
+
+export interface IExampleProps {
+  className?: string;
+  activeIndex?: number;
+  next?: () => void;
+  previous?: () => void;
+}
