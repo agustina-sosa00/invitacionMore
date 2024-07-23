@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Carousel,
   CarouselItem,
@@ -7,7 +7,7 @@ import {
   CarouselIndicators,
 } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { ICarouselImage } from "../../interface/ICarrusel";
+import { ICarouselImage, IExampleProps } from "../../interface/ICarrusel";
 
 const items: ICarouselImage[] = [
   {
@@ -33,7 +33,7 @@ const items: ICarouselImage[] = [
   },
 ];
 
-function Example(args) {
+function Example(args: IExampleProps) {
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [animating, setAnimating] = useState<boolean>(false);
 
@@ -49,7 +49,7 @@ function Example(args) {
     setActiveIndex(nextIndex);
   };
 
-  const goToIndex = (newIndex) => {
+  const goToIndex = (newIndex: number) => {
     if (animating) return;
     setActiveIndex(newIndex);
   };
