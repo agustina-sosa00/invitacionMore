@@ -4,14 +4,15 @@ import { Home } from "./view/Home/Home";
 import { Info } from "./view/Info/Info";
 
 function App() {
-
   return (
     <>
-      <Home/>
-      <Carrousel />
-      <Info />
+      <Home />
+      <div className="w-full flex flex-col lg:flex-row">
+        <Carrousel />
+        <Info />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
