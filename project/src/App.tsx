@@ -1,13 +1,12 @@
-import "./App.css";
-import { Carrousel } from "./view/Carrousel/Carrousel";
+import './App.css'
 
 function App() {
+
   return (
     <>
-      <h1>invitacion more</h1>
-      <Carrousel />
+      <h1>invitacion more</h1>      
     </>
-  );
+  )
 }
 
-export default App;
+export default App
