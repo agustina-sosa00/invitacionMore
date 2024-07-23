@@ -65,7 +65,7 @@ function Example(args) {
         <div className="w-full flex flex-col sm:flex-row justify-center items-center  ">
           <img
             src={item.src}
-            className="w-72 h-96  lg:w-[300px] lg:h-[450px] xl:w-[450px] xl:h-[650px] p-4 overflow-hidden ShadowEffect2"
+            className="w-72 h-96  lg:w-[300px] lg:h-[450px] xl:w-[450px] xl:h-[650px] p-4 overflow-hidden ShadowEffect rounded-full"
           />
         </div>
       </CarouselItem>

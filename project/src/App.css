@@ -1,0 +1,68 @@
+/* .info {
+  background: linear-gradient(
+      rgba(255, 192, 203, 0.698),
+      rgba(250, 250, 250, 0)
+    ),
+    url("./assets/descarga_1.jpg");
+  background-size: cover;
+}
+.carrousel {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 192, 203, 0.782)
+    ),
+    url("./assets/descarga_1.jpg");
+  background-size: cover;
+} */
+body {
+  background-image: url("./assets/descarga_1.jpg");
+  background-size: cover;
+}
+
+.ShadowEffect {
+  filter: drop-shadow(10px 0px 10px rgba(26, 26, 26, 0.538));
+}
+.ShadowEffect2 {
+  filter: drop-shadow(10px 0px 10px rgba(94, 93, 93, 0.538));
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 2rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #c55fee;
+  background-size: 400%;
+  color: #fff;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}

@@ -1,11 +1,12 @@
 import "./App.css";
 import { Carrousel } from "./view/Carrousel/Carrousel";
+import { Info } from "./view/Info/Info";
 
 function App() {
   return (
     <>
-      <h1>invitacion more</h1>
       <Carrousel />
+      <Info />
     </>
   );
 }
