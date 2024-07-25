@@ -6,13 +6,17 @@ export const Info = () => {
           <p className="text-3xl lg:text-4xl font-titulo text-violetaOscuro ">
             ¿Cuando es?
           </p>
-          <p className="text-2xl md:text-3xl font-texto text-violeta">28-09-2024</p>
+          <p className="text-2xl md:text-3xl font-texto text-violeta">
+            28-09-2024
+          </p>
         </div>
         <div className="w-full md:w-1/2 h-20 md:h-30 md:mb-10 flex flex-col justify-evenly items-center">
           <p className="text-3xl lg:text-4xl font-titulo text-violetaOscuro ">
             ¿A que hora?
           </p>
-          <p className="text-2xl md:text-3xl font-texto text-violeta">22:00hs</p>
+          <p className="text-2xl md:text-3xl font-texto text-violeta">
+            21:00hs
+          </p>
         </div>
         <div className="w-full md:w-1/2 h-20 md:h-36  md:mb-10 flex flex-col justify-evenly items-center">
           <p className="text-3xl lg:text-4xl font-titulo text-violetaOscuro ">
@@ -29,7 +33,7 @@ export const Info = () => {
         </div>
         <div className="w-full md:w-1/2 h-20 md:h-36 md:mb-10 flex flex-col justify-evenly items-center ">
           <p className="text-3xl lg:text-4xl font-titulo text-violetaOscuro text-center">
-            Confirma tu asistencia aquí
+            ¿Asistiras?
           </p>
           <button className="button ShadowEffect2 font-texto">
             <a
@@ -45,7 +49,9 @@ export const Info = () => {
           <p className="text-3xl lg:text-4xl font-titulo text-violetaOscuro ">
             ¿Como vestir?
           </p>
-          <p className=" text-2xl md:text-3xl text-violeta  font-texto">Elegante sport</p>
+          <p className=" text-2xl md:text-2xl lg:text-3xl text-violeta  font-texto">
+            Casual
+          </p>
         </div>
       </div>
     </div>
