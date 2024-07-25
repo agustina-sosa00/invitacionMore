@@ -37,8 +37,7 @@ export const Info = () => {
           </p>
           <button className="button ShadowEffect2 font-texto">
             <a
-              href="https://wa.me/541160285800?text=asistiré%20a%20tu%20fiesta%20de%15
-"
+              href="https://wa.me/541160285800?text=Hola%20More,%20confirmo%20mi%20asistencia%20a%20tu%20fiesta%20de%2015%20años"
               className="button-content font-texto"
             >
               Confirmar
