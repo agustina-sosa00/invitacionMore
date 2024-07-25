@@ -74,7 +74,7 @@ function Example(args: IExampleProps) {
 
   return (
     <Carousel
-      className="w-full sm:w-1/2 "
+      className="w-full sm:w-2/3 "
       activeIndex={activeIndex}
       next={next}
       previous={previous}
