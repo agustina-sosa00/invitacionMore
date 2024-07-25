@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Home />
-      <div className="w-full flex flex-col lg:flex-row">
+      <div className="w-full flex flex-col md:flex-row">
         <Carrousel />
         <Info />
       </div>
