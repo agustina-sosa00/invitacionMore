@@ -1,14 +1,18 @@
 body {
-  background: linear-gradient(white, rgba(255, 255, 255, 0.9)),
+  background: linear-gradient(white, rgba(255, 255, 255, 0.8)),
     url("./assets/fondo2.jpg");
   background-size: cover;
 }
 
 .ShadowEffect {
-  filter: drop-shadow(10px 0px 10px rgba(26, 26, 26, 0.538));
+  filter: drop-shadow(25px 10px 10px #5d056567);
 }
 .ShadowEffect2 {
   filter: drop-shadow(10px 0px 10px rgba(94, 93, 93, 0.538));
+}
+
+.redondo {
+  border-radius: 25px;
 }
 
 .button {

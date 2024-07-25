@@ -1,11 +1,5 @@
-/* eslint-disable no-unused-vars */
 import { useState } from "react";
-import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-} from "reactstrap";
+import { Carousel, CarouselItem, CarouselIndicators } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ICarouselImage, IExampleProps } from "../../interface/ICarrusel";
 
@@ -20,7 +14,6 @@ const items: ICarouselImage[] = [
   },
   {
     src: "https://i.ibb.co/5kv4My1/Imagen-de-Whats-App-2024-07-24-a-las-13-47-Photoroom-1.jpg",
-
     id: 3,
   },
   {
@@ -65,7 +58,7 @@ function Example(args: IExampleProps) {
         <div className="w-full flex flex-col sm:flex-row justify-center items-center  ">
           <img
             src={item.src}
-            className="w-72 h-96  lg:w-[300px] lg:h-[450px] xl:w-[450px] xl:h-[650px] p-4 overflow-hidden ShadowEffect  rounded-full mb-3"
+            className="w-72 h-96  lg:w-[300px] lg:h-[450px] xl:w-[450px] xl:h-[650px] p-4 overflow-hidden ShadowEffect redondo mb-3"
           />
         </div>
       </CarouselItem>
@@ -74,30 +67,19 @@ function Example(args: IExampleProps) {
 
   return (
     <Carousel
-      className="w-full sm:w-2/3 "
+      className="w-full sm:w-2/3   "
       activeIndex={activeIndex}
       next={next}
       previous={previous}
       {...args}
     >
       <CarouselIndicators
+        className=" bg-violetaOscuro mt-2 "
         items={items}
         activeIndex={activeIndex}
         onClickHandler={goToIndex}
       />
       {slides}
-      <CarouselControl
-        className="hidden"
-        direction="prev"
-        directionText="Previous"
-        onClickHandler={previous}
-      />
-      <CarouselControl
-        className="hidden"
-        direction="next"
-        directionText="Next"
-        onClickHandler={next}
-      />
     </Carousel>
   );
 }
